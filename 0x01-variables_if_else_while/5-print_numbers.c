@@ -7,8 +7,9 @@ int main(void)
 {
 	int fig;
 
-	for (fig = 0; fig <= 10, fig++)
-		printf("%d", fig);
+	for (fig = 0; fig < 10; fig++)
+
+	printf("%d", fig);
 
 	printf('\n');
 
