@@ -11,7 +11,7 @@ int main(void)
 
 	printf("%d", fig);
 
-	printf('\n');
+	int printf('\n');
 
 	return (0);
 
