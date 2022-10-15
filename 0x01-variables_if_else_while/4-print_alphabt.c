@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - prints alphabet in lowercase except q and e, followed by a new line
- * return: IT 0
+ * Return: 0
  */
 int main(void)
 {
