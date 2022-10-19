@@ -1,14 +1,15 @@
 #include "main.h"
-#include "stdio.h"
 
 /**
- * main - Entry point
  * _islower -> prints 10 times the a
+ * @c: any character
  * Return: returns 1 or 0 condirionally
  */
-int main(int c)
+int _islower(int c)
 {
-	int c;
-
-	return (c >= 'a' && c <= 'z');
+	if (c >= 'a' && c <= 'z')
+	{
+		return (1);
+	}
+	return (0);
 }
