@@ -4,10 +4,8 @@
  * main - Entry
  *
  * print_alphabet: 'Print lowercase alphabets'
- *
- * Return : ALways 0
  */
-void print_alphabet(void)
+int void print_alphabet(void)
 {
 	char alphabet;
 
