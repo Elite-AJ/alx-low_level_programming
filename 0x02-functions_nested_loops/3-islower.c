@@ -6,7 +6,7 @@
  * _islower -> prints 10 times the a
  * Return: returns 1 or 0 condirionally
  */
-int main(void)
+int main(int c)
 {
 	int c;
 
