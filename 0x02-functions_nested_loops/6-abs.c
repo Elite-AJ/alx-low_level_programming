@@ -1,10 +1,10 @@
 #include "main.h"
 /**
  * _abs -> computes the absolute value of an integer
- * @int: integer value
+ * @a: integer value
  * Return: Always 0
  */
-int _abs(int)
+int _abs(int a)
 {
 	int k = a;
 	int absvalue;
