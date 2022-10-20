@@ -7,10 +7,10 @@ void times_table(void)
 {
 	int c, d, pp;
 
-	for (a = 0; a <= 9; a++)
+	for (c = 0; c <= 9; c++)
 	{
 		_putchar(48);
-		for (b = 1; b <= 9; b++)
+		for (d = 1; d <= 9; b++)
 		{
 			pp = c * d;
 			_putchar(44);
