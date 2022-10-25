@@ -1,4 +1,4 @@
-#include " main.h"
+#include "main.h"
 
 /**
  * puts2 -print characters of a string with the first character,and a new line
