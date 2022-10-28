@@ -23,6 +23,6 @@ char *_strncat(char *dest, char *src, int n)
 	while (j < n &&  scr[j] != '\0')
 	{
 		dest[i] = src[j];
-		return (destiny);
+		return (dest);
 	}
 
