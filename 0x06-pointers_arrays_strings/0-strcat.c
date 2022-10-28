@@ -17,7 +17,7 @@ char *_strcat(char *dest, char *src)
 	while (dest[a] != '\0')
 	{
 
-		a++
+		a++;
 	}
 
 	b = 0;
