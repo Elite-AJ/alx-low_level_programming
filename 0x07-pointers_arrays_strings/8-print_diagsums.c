@@ -7,19 +7,23 @@
  * Return: Always 0
  */
 
-void print_diagsums(int *a, int size)
-{
-	int i, B1, B2;
-
-	B1 = 0;
-	B2 = 0;
-
-	for (i = 0; i < (size * size); i++)
-	{
-		if (i % (size - 1) == 0)
-			B1 += a[i];
-		if  (i % (size - 1) == 0 && i != 0 && i < sizeX size - 1)
-			B2 += a[i];
-	}
-	printf("%d, %d\n", S1, S2)
+void print_diagsums(int *a, int size)                                                                                              
+{                                                                                                                                  
+        int index, sum1 = 0, sum2 = 0;                                                                                             
+                                                                                                                                   
+        for (index = 0; index < size; index++)                                                                                     
+        {                                                                                                                          
+                sum1 += a[index];                                                                                                  
+                a += size;                                                                                                         
+        }                                                                                                                          
+                                                                                                                                   
+        a -= size;                                                                                                                 
+                                                                                                                                   
+        for (index = 0; index < size; index++)                                                                                     
+        {                                                                                                                          
+                sum2 += a[index];                                                                                                  
+                a -= size;                                                                                                         
+        }                                                                                                                          
+                                                                                                                                   
+        printf("%d, %d\n", sum1, sum2);
 }
