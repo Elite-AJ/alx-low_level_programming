@@ -9,7 +9,7 @@ int main(void)
 
 	for (n = 30; n < 40; n++)
 	{
-		putchar(n + '0');
+		putchar(n + '30');
 		if (n < 39)
 		{
 			putchar(',');
