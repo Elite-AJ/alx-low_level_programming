@@ -43,10 +43,11 @@ char *_strcopy(char *dest, char *src)
 }
 
 /**
- * dog_t *new_dog - entry point
+ * new_dog - entry point
  * @name: char value 1
  * @age: float value
  * @owner: char value 2
+ * Return: doggo
  */
 
 dog_t *new_dog(char *name, float age, char *owner)
