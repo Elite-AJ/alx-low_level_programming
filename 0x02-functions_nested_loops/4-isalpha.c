@@ -1,14 +1,22 @@
 #include "main.h"
+
 /**
- * _isalpha -> determines whether the input is lowercase or uppercase
- * @c: any character
- * Return: returns 1 or 0 conditionally
+ * main - check the code.
+ * Return: Always 0.
  */
-int _isalpha(int c)
+
+int main(void)
 {
-	if (c >= 'a'; c <= 'z'; c >= 'A' && c >= 'Z')
-	{
-		return (1);
-	}
+	int r;
+	
+	r = _isalpha('H');
+	_putchar(r + '0');
+	r = _isalpha('o');
+	_putchar(r + '0');
+	r = _isalpha(108);
+	_putchar(r + '0');
+	r = _isalpha(';');
+	_putchar(r + '0');
+	_putchar('\n');
 	return (0);
 }
