@@ -1,12 +1,13 @@
 #include <stdio.h>
 /**
  * main - entry point
+ * Purpose - no hardcore
  * Return: (Success)
  */
 
 int main(void)
 {
-	unsigned long unt i;
+	unsigned long int i;
 	unsigned long int bef = 1;
 	unsigned long int aft = 2;
 	unsigned long int l = 100000000;
