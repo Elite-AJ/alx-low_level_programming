@@ -52,11 +52,11 @@ int op_div(int a, int b)
  * op_mod - modular func
  * @a: int 1
  * @b: int 2
- * Return: Return the modular value of a and b 
+ * Return: Return the modular value of a and b
  */
 
 int op_mod(int a, int b)
 {
-	return (a  b);
+	return (a % b);
 }
 
