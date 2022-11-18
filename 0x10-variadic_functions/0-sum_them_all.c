@@ -8,7 +8,7 @@
  * Return: Return the sum of its parameters
  */
 
-void print_all(const char * const format, ...)
+int sum_them_all(const unsigned int n, ...)
 {
 	va_list valist;
 	unsigned int i;
