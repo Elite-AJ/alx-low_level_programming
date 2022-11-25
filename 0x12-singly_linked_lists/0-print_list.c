@@ -1,8 +1,8 @@
 #include "lists.h"
 
 /**
- * print_list: prints all the elements of a list_t list
- * @n: input
+ * print_list - prints all the elements of a list_t list
+ * @h: input
  *
  * Return: number of Nodes
  */
@@ -11,14 +11,14 @@ size_t print_list(const list_t *h)
 {
 	int m = 0;
 
-	while (w)
+	while (h)
 	{
-		if (w->str == NULL)
+		if (h->str == NULL)
 			printf("[0] (nil)\n");
 		else
-			printf("[%d] %s\n", w->len, w->str);
+			printf("[%d] %s\n", h->len, h->str);
 		m++;
-		w = h->next;
+		h = h->next;
 	}
 	return (m);
 }
