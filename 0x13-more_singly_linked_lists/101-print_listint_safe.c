@@ -5,7 +5,7 @@ size_t looped_listint_len(const listint_t *head);
 size_t print_listint_safe(const listint_t *head);
 
 /**
- * looped_listint_len - Counts the amount of nodes in a looped 
+ * looped_listint_len - Counts the amount of nodes in a looped
  * listint_t linked list
  * @head: A pointer to the head of the listint_t to check
  * Return: If  not looped - o
@@ -17,7 +17,7 @@ size_t looped_listint_len(const listint_t *head)
 	const listint_t *slowP, *fastP;
 	size_t nodes = 1;
 
-	if (head = NULL || head->next == NULL)
+	if (head == NULL || head->next == NULL)
 		return (0);
 
 	slowP = head->next;
