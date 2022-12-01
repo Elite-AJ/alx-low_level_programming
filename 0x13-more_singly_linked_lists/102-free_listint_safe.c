@@ -11,7 +11,7 @@ size_t free_listint_safe(listint_t **h);
  * Otherwise - The numver of the unique node
  */
 
-size_t looped_listint_count(listint_t *head);
+size_t looped_listint_count(listint_t *head)
 {
 	listint_t *tortoise, *hare;
 	size_t nodes = 1;
@@ -63,7 +63,7 @@ size_t free_listint_safe(listint_t **h)
 		{
 			tmp = (*h)->next;
 			free(*h);
-			*h tmp;
+			*h = tmp;
 		}
 	}
 
