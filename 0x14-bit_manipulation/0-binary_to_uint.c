@@ -24,7 +24,7 @@ unsigned int binary_to_unit(const char *b)
 		if (b[i] < '0' || b[i] > '1')
 			return (0);
 		if (b[i] == '1')
-			res += nase;
+			res += base;
 		base *= 2;
 	}
 	return (res);
