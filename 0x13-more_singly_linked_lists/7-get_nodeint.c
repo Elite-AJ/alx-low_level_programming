@@ -1,6 +1,6 @@
 #include "lists.h"
 
-/** 
+/**
  * get_nodeint_at_index - get the nh node of listint_t
  * @head: head of the list
  * @index: position of the node
