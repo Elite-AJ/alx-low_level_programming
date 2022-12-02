@@ -4,12 +4,12 @@
 #include "main.h"
 
 /**
- * binary_to_unit - converts binary to units
+ * binary_to_uint - converts binary to units
  * @b: pointer to the char to be converted
  * Return: converted number if successful otherwise 0
  */
 
-unsigned int binary_to_unit(const char *b)
+unsigned int binary_to_uint(const char *b)
 {
 	int i, base = 1, len = 0;
 	unsigned int res = 0;
