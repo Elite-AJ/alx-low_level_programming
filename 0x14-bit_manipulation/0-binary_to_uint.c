@@ -4,8 +4,9 @@
 #include "main.h"
 
 /**
- * binary_to_uint - converts binary to units
+ * binary_to_uint - converts binary to uints
  * @b: pointer to the char to be converted
+ *
  * Return: converted number if successful otherwise 0
  */
 
@@ -27,6 +28,5 @@ unsigned int binary_to_uint(const char *b)
 			res += base;
 		base *= 2;
 	}
-
 	return (res);
 }
