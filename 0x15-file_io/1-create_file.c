@@ -3,7 +3,7 @@
 /**
  * create_file - creates file
  * @filename: A pointer
- * @text_content: A pointer 
+ * @text_content: A pointer
  *
  * Return: If func fails - (-1)
  * Otherwise = (1)
