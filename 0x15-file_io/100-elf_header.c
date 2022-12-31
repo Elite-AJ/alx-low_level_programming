@@ -18,7 +18,7 @@ void print_entry(unsigned long int e_entry, unsigned char *e_ident);
 void close_elf(int elf);
 
 /**
- * chech_elf - Check if the file is an ELF file
+ * check_elf - Check if the file is an ELF file
  * @e_ident: A pointer
  * Description: if the file is not ELF, exit code 98
  */
@@ -225,7 +225,7 @@ void print_type(unsigned int e_type, unsigned char *e_ident)
  * @e_ident: Pointer
  * @e_entry: ELF entry point address
  */
-void print_entry(long unsigned int e_entry, unsigned char *e_ident)
+void print_entry(unsigned long int e_entry, unsigned char *e_ident)
 {
 	printf("  Entry point address:               ");
 
