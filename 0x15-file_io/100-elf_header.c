@@ -52,11 +52,11 @@ void print_magic(unsigned char *e_ident)
 
 	printf("  Magic:   ");
 
-	for (index =0; index < EI_NIDENT; index++)
+	for (index = 0; index < EI_NIDENT; index++)
 	{
 		printf("%02x", e_ident[index]);
 
-		if (index == EI_NIDENT -1)
+		if (index == EI_NIDENT - 1)
 			printf("\n");
 		else
 			printf(" ");
@@ -106,7 +106,7 @@ void print_data(unsigned char *e_ident)
 		break;
 
 	case ELFDATA2MSB:
-		printf("2's complement, little endian\n");
+		printf("2's complement, big endian\n");
 		break;
 	default:
 		printf("<unknown: %x>\n", e_ident[EI_CLASS]);
