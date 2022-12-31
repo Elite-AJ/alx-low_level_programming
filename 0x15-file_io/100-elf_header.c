@@ -102,7 +102,7 @@ void print_data(unsigned char *e_ident)
 		printf("none\n");
 		break;
 	case ELFDATA2LSB:
-		PRINTF("2's complement, little endian\n");
+		printf("2's complement, little endian\n");
 		break;
 
 	case ELFDATA2MSB:
