@@ -225,7 +225,7 @@ void print_type(unsigned int e_type, unsigned char *e_ident)
  * @e_ident: Pointer
  * @e_entry: ELF entry point address
  */
-void print_entry(unsigned long int e_entry, unsigned char *e_ident)
+void print_entry(unsigned int e_entry, unsigned char *e_ident)
 {
 	printf("  Entry point address:               ");
 
