@@ -1,14 +1,16 @@
-#ifndef MAIN_H
-#define MAIN_H
+#ifndef _MAIN_H_
+#define _MAIN_H_
+#include <stdlib.h>
+#include <stdio.h>
 
-#include <sys/types.h>
-#include <sys/stat.h>
-#include <fcntl.h>
-#include <unistd.h>
+int _putchar(char c);
+void *malloc_checked(unsigned int b);
+char *string_nconcat(char *s1, char *s2, unsigned int n);
+void *_calloc(unsigned int nmemb, unsigned int size);
+int *array_range(int min, int max);
+void errors(void);
+int _strlen(char *s);
+int is_digit(char *s);
+void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size);
 
-
-ssize_t read_textfile(const char *filename, size_t letters);
-int create_file(const char *filename, char *text_content);
-int append_text_to_file(const char *filename, char *text_content);
-
-#endif /* MAIN_H */
+#endif
